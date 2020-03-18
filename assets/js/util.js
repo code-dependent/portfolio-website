@@ -564,19 +564,19 @@
 					}
 
 				// Moved already?
-					else {
+					// else {
 
-						// Condition is true? Bail.
-							if (condition)
-								return;
+					// 	// Condition is true? Bail.
+					// 		if (condition)
+					// 			return;
 
-						$p = $e.data(key);
+					// 	$p = $e.data(key);
 
-						// Move element back to its original location (using our placeholder).
-							$e.insertAfter($p);
+					// 	// Move element back to its original location (using our placeholder).
+					// 		$e.insertAfter($p);
 
-						// Unmark element as moved.
-							$e.removeData(key);
+					// 	// Unmark element as moved.
+					// 		$e.removeData(key);
 
 					}
 
